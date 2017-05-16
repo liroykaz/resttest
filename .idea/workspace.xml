@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cca9da88-ca67-4237-b10b-a5b7baf99638" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/JsonCustomParserHelper.java" afterPath="$PROJECT_DIR$/src/main/java/JsonCustomParserHelper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/RestClient.java" afterPath="$PROJECT_DIR$/src/main/java/RestClient.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,8 +23,8 @@
       <file leaf-file-name="RestClient.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/RestClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3757">
-              <caret line="22" column="165" lean-forward="false" selection-start-line="22" selection-start-column="165" selection-end-line="22" selection-end-column="165" />
+            <state relative-caret-position="-3002">
+              <caret line="100" column="58" lean-forward="false" selection-start-line="100" selection-start-column="58" selection-end-line="100" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,8 +35,8 @@
       <file leaf-file-name="JsonCustomParserHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/JsonCustomParserHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="15" column="58" lean-forward="false" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+            <state relative-caret-position="-1047">
+              <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -87,6 +88,7 @@
         <option value="$PROJECT_DIR$/src/main/java/JsonParsing.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/JsonCustomParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JsonCustomParserHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/RestClient.java" />
       </list>
     </option>
@@ -502,7 +504,7 @@
       <workItem from="1492427885197" duration="14235000" />
       <workItem from="1493722615575" duration="3249000" />
       <workItem from="1494399049965" duration="1046000" />
-      <workItem from="1494846569866" duration="4951000" />
+      <workItem from="1494846569866" duration="5315000" />
     </task>
     <servers />
   </component>
@@ -539,7 +541,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82635000" />
+    <option name="totallyTimeSpent" value="82999000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -841,14 +843,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JsonCustomParserHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="58" lean-forward="false" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -857,10 +851,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JsonCustomParserHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1047">
+          <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/RestClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3757">
-          <caret line="22" column="165" lean-forward="false" selection-start-line="22" selection-start-column="165" selection-end-line="22" selection-end-column="165" />
+        <state relative-caret-position="-3002">
+          <caret line="100" column="58" lean-forward="false" selection-start-line="100" selection-start-column="58" selection-end-line="100" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

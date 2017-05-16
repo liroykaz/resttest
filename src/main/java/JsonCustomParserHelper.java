@@ -5,9 +5,6 @@ import com.google.gson.JsonObject;
  * Created by lebedev on 17.04.2017.
  */
 public class JsonCustomParserHelper {
-    //сделать статическими все методы, убрать висячие переменные, класс название + Helper
-   // static JsonObject newService, repair, employee, jsObject;
-
     public static String jsonToStringServiceParser(JsonArray serviceObject){
         StringBuilder str = new StringBuilder("");
         JsonObject newService;

@@ -83,10 +83,7 @@ public class RestClient {
     }
 
     public void commitService(String name, String address, String phone, HttpClient client) throws IOException {
-        StringBuilder urlk = new StringBuilder(""); //инициализировать там же, где и получаем
-        String nameSet = name; // не надо дублировать, достаточно работать с ними, если не изменяем
-        String addressSet = address;
-        String phoneSet = phone;
+        StringBuilder urlk = new StringBuilder("");
 
         urlk.append(address);
         urlk.append("commit?s=");
@@ -102,9 +99,9 @@ public class RestClient {
 
         JsonObject infoService = new JsonObject();
         infoService.addProperty("id", "NEW-cubatrainingtask$CarServiceCenter");
-        infoService.addProperty("name", nameSet);
-        infoService.addProperty("address", addressSet);
-        infoService.addProperty("phone", phoneSet);
+        infoService.addProperty("name", name);
+        infoService.addProperty("address", address);
+        infoService.addProperty("phone", phone);
         serviceArray.add(infoService);
 
         newService.add("commitInstances", serviceArray);
