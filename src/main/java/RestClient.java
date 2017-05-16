@@ -6,7 +6,6 @@ import jdk.nashorn.api.scripting.JSObject;
 import jdk.nashorn.internal.parser.JSONParser;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
-import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
@@ -21,9 +20,7 @@ import java.io.IOException;
  * Created by lebedev on 04.04.2017.
  */
 public class RestClient {
-    //String session = null;
     public final StringBuilder ADDRESS =  new StringBuilder("http://localhost:8080/app-portal/api/"); //сделать статическим ADDRESS, сессию получать в каждом методе.
-    //JsonCustomParser customParser = new JsonCustomParser();
 
     public String getSession(HttpClient client){
         StringBuilder url = new StringBuilder();
